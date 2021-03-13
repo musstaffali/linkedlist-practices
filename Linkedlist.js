@@ -8,7 +8,7 @@ class LinkedList {
         const newNode = new LinkedListNode(data, this.head)
         // replace start of list with new node
         this.head = newNode
-        length++
+        this.length++
     }
 }
 
